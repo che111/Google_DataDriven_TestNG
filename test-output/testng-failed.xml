@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ Google Data Driven Using TestNG ]">
+  <test name="TC_03 All Google Apps Launch Test(failed)">
+    <classes>
+      <class name="dd_testcases.TC_03AllGoogleappsLaunchTest">
+        <methods>
+          <include name="finish"/>
+          <include name="VerifygoogleappsLaunch"/>
+          <include name="init"/>
+          <include name="is_Skip"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_03AllGoogleappsLaunchTest -->
+    </classes>
+  </test> <!-- TC_03 All Google Apps Launch Test(failed) -->
+  <test name="TC_04 Verify User is able to Sign_in All Apps(failed)">
+    <classes>
+      <class name="dd_testcases.TC_04Verify_User_is_able_to_Sign_In_Allapps">
+        <methods>
+          <include name="finish"/>
+          <include name="login"/>
+          <include name="is_Skip"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_04Verify_User_is_able_to_Sign_In_Allapps -->
+    </classes>
+  </test> <!-- TC_04 Verify User is able to Sign_in All Apps(failed) -->
+  <test name="TC_05 Verify User is able to Change Google Language(failed)">
+    <classes>
+      <class name="dd_testcases.TC_05Verify_User_is_able_to_Change_Google_Language">
+        <methods>
+          <include name="finish"/>
+          <include name="init"/>
+          <include name="is_Skip"/>
+          <include name="googleLanguage"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_05Verify_User_is_able_to_Change_Google_Language -->
+    </classes>
+  </test> <!-- TC_05 Verify User is able to Change Google Language(failed) -->
+  <test name="TC_06 Verify to open and Colse the Browser(failed)">
+    <classes>
+      <class name="dd_testcases.TC_06Verify_openandColse_the_Browser">
+        <methods>
+          <include name="finish"/>
+          <include name="is_Skip"/>
+          <include name="VerifOpenAndCloseBrowser"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_06Verify_openandColse_the_Browser -->
+    </classes>
+  </test> <!-- TC_06 Verify to open and Colse the Browser(failed) -->
+  <test name="TC_07 Verify Google Search Functionality(failed)">
+    <classes>
+      <class name="dd_testcases.TC_07Verify_Google_Search_Functionality">
+        <methods>
+          <include name="finish"/>
+          <include name="searchFunctionality"/>
+          <include name="init"/>
+          <include name="is_Skip"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_07Verify_Google_Search_Functionality -->
+    </classes>
+  </test> <!-- TC_07 Verify Google Search Functionality(failed) -->
+  <test name="TC_08 Verify Google apps and products on webpage(failed)">
+    <classes>
+      <class name="dd_testcases.TC_08Verify_Google_apps_and_products_on_webpage">
+        <methods>
+          <include name="finish"/>
+          <include name="init"/>
+          <include name="verify_Google_apps_products_on_webpage"/>
+          <include name="is_Skip"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_08Verify_Google_apps_and_products_on_webpage -->
+    </classes>
+  </test> <!-- TC_08 Verify Google apps and products on webpage(failed) -->
+  <test name="TC_09 Verify User able login to Gmail(failed)">
+    <classes>
+      <class name="dd_testcases.TC_09Verify_User_able_login_to_Gmail">
+        <methods>
+          <include name="finish"/>
+          <include name="is_Skip"/>
+          <include name="login"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_09Verify_User_able_login_to_Gmail -->
+    </classes>
+  </test> <!-- TC_09 Verify User able login to Gmail(failed) -->
+</suite> <!-- Failed suite [ Google Data Driven Using TestNG ] -->

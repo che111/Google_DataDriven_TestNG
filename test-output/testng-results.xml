@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="6" failed="1" ignored="0" total="9" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" Google Data Driven Using TestNG " duration-ms="3017" started-at="2017-09-24T07:36:53Z" finished-at="2017-09-24T07:36:56Z">
+    <groups>
+    </groups>
+    <test name="TC_01_Google_Webpage_Launch_Test" duration-ms="401" started-at="2017-09-24T07:36:53Z" finished-at="2017-09-24T07:36:53Z">
+      <class name="dd_testcases.TC_01GoogleWebpageLaunchTest">
+        <test-method status="PASS" signature="is_Skip()[pri:0, instance:dd_testcases.TC_01GoogleWebpageLaunchTest@12948e2]" name="is_Skip" is-config="true" duration-ms="12" started-at="2017-09-24T13:06:53Z" finished-at="2017-09-24T13:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- is_Skip -->
+        <test-method status="PASS" signature="googleLaunchVerify(java.lang.String)[pri:1, instance:dd_testcases.TC_01GoogleWebpageLaunchTest@12948e2]" name="googleLaunchVerify" duration-ms="353" started-at="2017-09-24T13:06:53Z" data-provider="getData" finished-at="2017-09-24T13:06:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLaunchVerify -->
+      </class> <!-- dd_testcases.TC_01GoogleWebpageLaunchTest -->
+    </test> <!-- TC_01_Google_Webpage_Launch_Test -->
+    <test name="TC_02 Google Apps Visible in DialogBox" duration-ms="1974" started-at="2017-09-24T07:36:53Z" finished-at="2017-09-24T07:36:55Z">
+      <class name="dd_testcases.TC_02GoogleappsVisibleInDialogBox">
+        <test-method status="PASS" signature="is_Skip()[pri:0, instance:dd_testcases.TC_02GoogleappsVisibleInDialogBox@158fe70]" name="is_Skip" is-config="true" duration-ms="1" started-at="2017-09-24T13:06:53Z" finished-at="2017-09-24T13:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- is_Skip -->
+        <test-method status="PASS" signature="Verifygoogleappsvisible()[pri:2, instance:dd_testcases.TC_02GoogleappsVisibleInDialogBox@158fe70]" name="Verifygoogleappsvisible" duration-ms="1967" started-at="2017-09-24T13:06:53Z" finished-at="2017-09-24T13:06:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifygoogleappsvisible -->
+      </class> <!-- dd_testcases.TC_02GoogleappsVisibleInDialogBox -->
+    </test> <!-- TC_02 Google Apps Visible in DialogBox -->
+    <test name="TC_03 All Google Apps Launch Test" duration-ms="424" started-at="2017-09-24T07:36:55Z" finished-at="2017-09-24T07:36:56Z">
+      <class name="dd_testcases.TC_03AllGoogleappsLaunchTest">
+        <test-method status="PASS" signature="is_Skip()[pri:0, instance:dd_testcases.TC_03AllGoogleappsLaunchTest@b494a6]" name="is_Skip" is-config="true" duration-ms="1" started-at="2017-09-24T13:06:55Z" finished-at="2017-09-24T13:06:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- is_Skip -->
+        <test-method status="FAIL" signature="VerifygoogleappsLaunch()[pri:0, instance:dd_testcases.TC_03AllGoogleappsLaunchTest@b494a6]" name="VerifygoogleappsLaunch" duration-ms="413" started-at="2017-09-24T13:06:55Z" finished-at="2017-09-24T13:06:56Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 55 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'CHETAN-PC', ip: '192.168.63.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\CHETAN\AppData\Local\Temp\scoped_dir7816_5087}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9f0e17c169ffdbfc50437970dda54183]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: element not visible
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 55 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'CHETAN-PC', ip: '192.168.63.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\CHETAN\AppData\Local\Temp\scoped_dir7816_5087}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9f0e17c169ffdbfc50437970dda54183
+	at org.testng.Assert.fail(Assert.java:93)
+	at dd_testcases.TC_03AllGoogleappsLaunchTest.VerifygoogleappsLaunch(TC_03AllGoogleappsLaunchTest.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifygoogleappsLaunch -->
+      </class> <!-- dd_testcases.TC_03AllGoogleappsLaunchTest -->
+    </test> <!-- TC_03 All Google Apps Launch Test -->
+    <test name="TC_04 Verify User is able to Sign_in All Apps" duration-ms="12" started-at="2017-09-24T07:36:56Z" finished-at="2017-09-24T07:36:56Z">
+      <class name="dd_testcases.TC_04Verify_User_is_able_to_Sign_In_Allapps">
+        <test-method status="SKIP" signature="is_Skip()[pri:0, instance:dd_testcases.TC_04Verify_User_is_able_to_Sign_In_Allapps@121e813]" name="is_Skip" is-config="true" duration-ms="1" started-at="2017-09-24T13:06:56Z" finished-at="2017-09-24T13:06:56Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test because runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_04Verify_User_is_able_to_Sign_In_Allapps.is_Skip(TC_04Verify_User_is_able_to_Sign_In_Allapps.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- is_Skip -->
+        <test-method status="SKIP" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.TC_04Verify_User_is_able_to_Sign_In_Allapps@121e813]" name="login" duration-ms="0" started-at="2017-09-24T13:06:56Z" data-provider="getdata" finished-at="2017-09-24T13:06:56Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test because runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_04Verify_User_is_able_to_Sign_In_Allapps.is_Skip(TC_04Verify_User_is_able_to_Sign_In_Allapps.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- dd_testcases.TC_04Verify_User_is_able_to_Sign_In_Allapps -->
+    </test> <!-- TC_04 Verify User is able to Sign_in All Apps -->
+    <test name="TC_05 Verify User is able to Change Google Language" duration-ms="6" started-at="2017-09-24T07:36:56Z" finished-at="2017-09-24T07:36:56Z">
+      <class name="dd_testcases.TC_05Verify_User_is_able_to_Change_Google_Language">
+        <test-method status="SKIP" signature="is_Skip()[pri:0, instance:dd_testcases.TC_05Verify_User_is_able_to_Change_Google_Language@137fd8f]" name="is_Skip" is-config="true" duration-ms="2" started-at="2017-09-24T13:06:56Z" finished-at="2017-09-24T13:06:56Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test because runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_05Verify_User_is_able_to_Change_Google_Language.is_Skip(TC_05Verify_User_is_able_to_Change_Google_Language.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- is_Skip -->
+        <test-method status="SKIP" signature="googleLanguage()[pri:0, instance:dd_testcases.TC_05Verify_User_is_able_to_Change_Google_Language@137fd8f]" name="googleLanguage" duration-ms="0" started-at="2017-09-24T13:06:56Z" finished-at="2017-09-24T13:06:56Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test because runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_05Verify_User_is_able_to_Change_Google_Language.is_Skip(TC_05Verify_User_is_able_to_Change_Google_Language.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLanguage -->
+      </class> <!-- dd_testcases.TC_05Verify_User_is_able_to_Change_Google_Language -->
+    </test> <!-- TC_05 Verify User is able to Change Google Language -->
+    <test name="TC_06 Verify to open and Colse the Browser" duration-ms="6" started-at="2017-09-24T07:36:56Z" finished-at="2017-09-24T07:36:56Z">
+      <class name="dd_testcases.TC_06Verify_openandColse_the_Browser">
+        <test-method status="SKIP" signature="is_Skip()[pri:0, instance:dd_testcases.TC_06Verify_openandColse_the_Browser@1660f4e]" name="is_Skip" is-config="true" duration-ms="2" started-at="2017-09-24T13:06:56Z" finished-at="2017-09-24T13:06:56Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test because runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_06Verify_openandColse_the_Browser.is_Skip(TC_06Verify_openandColse_the_Browser.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- is_Skip -->
+        <test-method status="SKIP" signature="VerifOpenAndCloseBrowser()[pri:0, instance:dd_testcases.TC_06Verify_openandColse_the_Browser@1660f4e]" name="VerifOpenAndCloseBrowser" duration-ms="0" started-at="2017-09-24T13:06:56Z" finished-at="2017-09-24T13:06:56Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test because runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_06Verify_openandColse_the_Browser.is_Skip(TC_06Verify_openandColse_the_Browser.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifOpenAndCloseBrowser -->
+      </class> <!-- dd_testcases.TC_06Verify_openandColse_the_Browser -->
+    </test> <!-- TC_06 Verify to open and Colse the Browser -->
+    <test name="TC_07 Verify Google Search Functionality" duration-ms="5" started-at="2017-09-24T07:36:56Z" finished-at="2017-09-24T07:36:56Z">
+      <class name="dd_testcases.TC_07Verify_Google_Search_Functionality">
+        <test-method status="SKIP" signature="is_Skip()[pri:0, instance:dd_testcases.TC_07Verify_Google_Search_Functionality@1063c0a]" name="is_Skip" is-config="true" duration-ms="2" started-at="2017-09-24T13:06:56Z" finished-at="2017-09-24T13:06:56Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test because runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_07Verify_Google_Search_Functionality.is_Skip(TC_07Verify_Google_Search_Functionality.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- is_Skip -->
+        <test-method status="SKIP" signature="searchFunctionality()[pri:0, instance:dd_testcases.TC_07Verify_Google_Search_Functionality@1063c0a]" name="searchFunctionality" duration-ms="0" started-at="2017-09-24T13:06:56Z" finished-at="2017-09-24T13:06:56Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test because runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_07Verify_Google_Search_Functionality.is_Skip(TC_07Verify_Google_Search_Functionality.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFunctionality -->
+      </class> <!-- dd_testcases.TC_07Verify_Google_Search_Functionality -->
+    </test> <!-- TC_07 Verify Google Search Functionality -->
+    <test name="TC_08 Verify Google apps and products on webpage" duration-ms="8" started-at="2017-09-24T07:36:56Z" finished-at="2017-09-24T07:36:56Z">
+      <class name="dd_testcases.TC_08Verify_Google_apps_and_products_on_webpage">
+        <test-method status="SKIP" signature="is_Skip()[pri:0, instance:dd_testcases.TC_08Verify_Google_apps_and_products_on_webpage@11f39f9]" name="is_Skip" is-config="true" duration-ms="1" started-at="2017-09-24T13:06:56Z" finished-at="2017-09-24T13:06:56Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test because runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_08Verify_Google_apps_and_products_on_webpage.is_Skip(TC_08Verify_Google_apps_and_products_on_webpage.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- is_Skip -->
+        <test-method status="SKIP" signature="verify_Google_apps_products_on_webpage()[pri:0, instance:dd_testcases.TC_08Verify_Google_apps_and_products_on_webpage@11f39f9]" name="verify_Google_apps_products_on_webpage" duration-ms="0" started-at="2017-09-24T13:06:56Z" finished-at="2017-09-24T13:06:56Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test because runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_08Verify_Google_apps_and_products_on_webpage.is_Skip(TC_08Verify_Google_apps_and_products_on_webpage.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Google_apps_products_on_webpage -->
+      </class> <!-- dd_testcases.TC_08Verify_Google_apps_and_products_on_webpage -->
+    </test> <!-- TC_08 Verify Google apps and products on webpage -->
+    <test name="TC_09 Verify User able login to Gmail" duration-ms="125" started-at="2017-09-24T07:36:56Z" finished-at="2017-09-24T07:36:56Z">
+      <class name="dd_testcases.TC_09Verify_User_able_login_to_Gmail">
+        <test-method status="PASS" signature="init()[pri:0, instance:dd_testcases.TC_09Verify_User_able_login_to_Gmail@729b1e]" name="init" is-config="true" duration-ms="20297" started-at="2017-09-24T13:06:33Z" finished-at="2017-09-24T13:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="SKIP" signature="is_Skip()[pri:0, instance:dd_testcases.TC_09Verify_User_able_login_to_Gmail@729b1e]" name="is_Skip" is-config="true" duration-ms="5" started-at="2017-09-24T13:06:56Z" finished-at="2017-09-24T13:06:56Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test because runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_09Verify_User_able_login_to_Gmail.is_Skip(TC_09Verify_User_able_login_to_Gmail.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- is_Skip -->
+        <test-method status="SKIP" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.TC_09Verify_User_able_login_to_Gmail@729b1e]" name="login" duration-ms="0" started-at="2017-09-24T13:06:56Z" data-provider="getdata" finished-at="2017-09-24T13:06:56Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test because runmode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_09Verify_User_able_login_to_Gmail.is_Skip(TC_09Verify_User_able_login_to_Gmail.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="finish()[pri:0, instance:dd_testcases.TC_09Verify_User_able_login_to_Gmail@729b1e]" name="finish" is-config="true" duration-ms="0" started-at="2017-09-24T13:06:56Z" finished-at="2017-09-24T13:06:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- dd_testcases.TC_09Verify_User_able_login_to_Gmail -->
+    </test> <!-- TC_09 Verify User able login to Gmail -->
+  </suite> <!--  Google Data Driven Using TestNG  -->
+</testng-results>

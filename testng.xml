@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Google Data Driven Using TestNG ">
+
+  <test name="TC_01_Google_Webpage_Launch_Test">
+  <classes>
+ <class name="dd_testcases.TC_01GoogleWebpageLaunchTest"></class>
+  </classes>
+  </test> 
+  
+   <test name="TC_02 Google Apps Visible in DialogBox">
+  <classes>
+ <class name="dd_testcases.TC_02GoogleappsVisibleInDialogBox"></class>
+  </classes>
+  </test>
+   
+  <test name="TC_03 All Google Apps Launch Test">
+  <classes>
+ <class name="dd_testcases.TC_03AllGoogleappsLaunchTest"></class>
+  </classes>
+  </test> 
+  
+  <test name="TC_04 Verify User is able to Sign_in All Apps">
+  <classes>
+ <class name="dd_testcases.TC_04Verify_User_is_able_to_Sign_In_Allapps"></class>
+  </classes>
+  </test> 
+  
+  <test name="TC_05 Verify User is able to Change Google Language">
+  <classes>
+ <class name="dd_testcases.TC_05Verify_User_is_able_to_Change_Google_Language"></class>
+  </classes>
+  </test> 
+  
+  <test name="TC_06 Verify to open and Colse the Browser">
+  <classes>
+ <class name="dd_testcases.TC_06Verify_openandColse_the_Browser"></class>
+  </classes>
+  </test> 
+  
+  <test name="TC_07 Verify Google Search Functionality">
+  <classes>
+ <class name="dd_testcases.TC_07Verify_Google_Search_Functionality"></class>
+  </classes>
+  </test> 
+  
+  <test name="TC_08 Verify Google apps and products on webpage">
+  <classes>
+ <class name="dd_testcases.TC_08Verify_Google_apps_and_products_on_webpage"></class>
+  </classes>
+  </test> 
+  
+  <test name="TC_09 Verify User able login to Gmail">
+  <classes>
+ <class name="dd_testcases.TC_09Verify_User_able_login_to_Gmail"></class>
+  </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

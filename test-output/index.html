@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-_Google_Data_Driven_Using_TestNG_">
+              <span class="suite-name border-failed"> Google Data Driven Using TestNG </span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-_Google_Data_Driven_Using_TestNG_">
+                    <span>D:\MY Testing Project\DataDrivenUsingTestNG\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-_Google_Data_Driven_Using_TestNG_">
+                    <span class="test-stats">9 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-_Google_Data_Driven_Using_TestNG_">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-_Google_Data_Driven_Using_TestNG_">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-_Google_Data_Driven_Using_TestNG_">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-_Google_Data_Driven_Using_TestNG_">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-_Google_Data_Driven_Using_TestNG_">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 1 failed,  6 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-_Google_Data_Driven_Using_TestNG_" class="hide-methods failed suite-_Google_Data_Driven_Using_TestNG_"> (hide)</a> <!-- hide-methods failed suite-_Google_Data_Driven_Using_TestNG_ -->
+                      <a href="#" panel-name="suite-_Google_Data_Driven_Using_TestNG_" class="show-methods failed suite-_Google_Data_Driven_Using_TestNG_"> (show)</a> <!-- show-methods failed suite-_Google_Data_Driven_Using_TestNG_ -->
+                    </span>
+                    <div class="method-list-content failed suite-_Google_Data_Driven_Using_TestNG_">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Google_Data_Driven_Using_TestNG_" title="dd_testcases.TC_03AllGoogleappsLaunchTest" hash-for-method="VerifygoogleappsLaunch">VerifygoogleappsLaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-_Google_Data_Driven_Using_TestNG_ -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-_Google_Data_Driven_Using_TestNG_" class="hide-methods skipped suite-_Google_Data_Driven_Using_TestNG_"> (hide)</a> <!-- hide-methods skipped suite-_Google_Data_Driven_Using_TestNG_ -->
+                      <a href="#" panel-name="suite-_Google_Data_Driven_Using_TestNG_" class="show-methods skipped suite-_Google_Data_Driven_Using_TestNG_"> (show)</a> <!-- show-methods skipped suite-_Google_Data_Driven_Using_TestNG_ -->
+                    </span>
+                    <div class="method-list-content skipped suite-_Google_Data_Driven_Using_TestNG_">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Google_Data_Driven_Using_TestNG_" title="dd_testcases.TC_06Verify_openandColse_the_Browser" hash-for-method="VerifOpenAndCloseBrowser">VerifOpenAndCloseBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Google_Data_Driven_Using_TestNG_" title="dd_testcases.TC_05Verify_User_is_able_to_Change_Google_Language" hash-for-method="googleLanguage">googleLanguage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Google_Data_Driven_Using_TestNG_" title="dd_testcases.TC_04Verify_User_is_able_to_Sign_In_Allapps" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Google_Data_Driven_Using_TestNG_" title="dd_testcases.TC_09Verify_User_able_login_to_Gmail" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Google_Data_Driven_Using_TestNG_" title="dd_testcases.TC_07Verify_Google_Search_Functionality" hash-for-method="searchFunctionality">searchFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Google_Data_Driven_Using_TestNG_" title="dd_testcases.TC_08Verify_Google_apps_and_products_on_webpage" hash-for-method="verify_Google_apps_products_on_webpage">verify_Google_apps_products_on_webpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-_Google_Data_Driven_Using_TestNG_ -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-_Google_Data_Driven_Using_TestNG_" class="hide-methods passed suite-_Google_Data_Driven_Using_TestNG_"> (hide)</a> <!-- hide-methods passed suite-_Google_Data_Driven_Using_TestNG_ -->
+                      <a href="#" panel-name="suite-_Google_Data_Driven_Using_TestNG_" class="show-methods passed suite-_Google_Data_Driven_Using_TestNG_"> (show)</a> <!-- show-methods passed suite-_Google_Data_Driven_Using_TestNG_ -->
+                    </span>
+                    <div class="method-list-content passed suite-_Google_Data_Driven_Using_TestNG_">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Google_Data_Driven_Using_TestNG_" title="dd_testcases.TC_02GoogleappsVisibleInDialogBox" hash-for-method="Verifygoogleappsvisible">Verifygoogleappsvisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Google_Data_Driven_Using_TestNG_" title="dd_testcases.TC_01GoogleWebpageLaunchTest" hash-for-method="googleLaunchVerify(Google)">googleLaunchVerify(Google)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-_Google_Data_Driven_Using_TestNG_ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-_Google_Data_Driven_Using_TestNG_" class="panel _Google_Data_Driven_Using_TestNG_">
+          <div class="suite-_Google_Data_Driven_Using_TestNG_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">dd_testcases.TC_03AllGoogleappsLaunchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifygoogleappsLaunch">
+                  </a> <!-- VerifygoogleappsLaunch -->
+                  <span class="method-name">VerifygoogleappsLaunch</span>
+                  <div class="stack-trace">java.lang.AssertionError: element not visible
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 55 milliseconds
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;CHETAN-PC&apos;, ip: &apos;192.168.63.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\CHETAN\AppData\Local\Temp\scoped_dir7816_5087}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9f0e17c169ffdbfc50437970dda54183
+	at dd_testcases.TC_03AllGoogleappsLaunchTest.VerifygoogleappsLaunch(TC_03AllGoogleappsLaunchTest.java:116)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Google_Data_Driven_Using_TestNG_-class-failed -->
+          <div class="suite-_Google_Data_Driven_Using_TestNG_-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_08Verify_Google_apps_and_products_on_webpage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Google_apps_products_on_webpage">
+                  </a> <!-- verify_Google_apps_products_on_webpage -->
+                  <span class="method-name">verify_Google_apps_products_on_webpage</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_08Verify_Google_apps_and_products_on_webpage.is_Skip(TC_08Verify_Google_apps_and_products_on_webpage.java:19)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Google_Data_Driven_Using_TestNG_-class-skipped -->
+          <div class="suite-_Google_Data_Driven_Using_TestNG_-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_07Verify_Google_Search_Functionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchFunctionality">
+                  </a> <!-- searchFunctionality -->
+                  <span class="method-name">searchFunctionality</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_07Verify_Google_Search_Functionality.is_Skip(TC_07Verify_Google_Search_Functionality.java:27)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Google_Data_Driven_Using_TestNG_-class-skipped -->
+          <div class="suite-_Google_Data_Driven_Using_TestNG_-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_05Verify_User_is_able_to_Change_Google_Language</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleLanguage">
+                  </a> <!-- googleLanguage -->
+                  <span class="method-name">googleLanguage</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_05Verify_User_is_able_to_Change_Google_Language.is_Skip(TC_05Verify_User_is_able_to_Change_Google_Language.java:21)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Google_Data_Driven_Using_TestNG_-class-skipped -->
+          <div class="suite-_Google_Data_Driven_Using_TestNG_-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_04Verify_User_is_able_to_Sign_In_Allapps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_04Verify_User_is_able_to_Sign_In_Allapps.is_Skip(TC_04Verify_User_is_able_to_Sign_In_Allapps.java:22)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Google_Data_Driven_Using_TestNG_-class-skipped -->
+          <div class="suite-_Google_Data_Driven_Using_TestNG_-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_09Verify_User_able_login_to_Gmail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_09Verify_User_able_login_to_Gmail.is_Skip(TC_09Verify_User_able_login_to_Gmail.java:19)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Google_Data_Driven_Using_TestNG_-class-skipped -->
+          <div class="suite-_Google_Data_Driven_Using_TestNG_-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_06Verify_openandColse_the_Browser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifOpenAndCloseBrowser">
+                  </a> <!-- VerifOpenAndCloseBrowser -->
+                  <span class="method-name">VerifOpenAndCloseBrowser</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test because runmode is No
+	at dd_testcases.TC_06Verify_openandColse_the_Browser.is_Skip(TC_06Verify_openandColse_the_Browser.java:17)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Google_Data_Driven_Using_TestNG_-class-skipped -->
+          <div class="suite-_Google_Data_Driven_Using_TestNG_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dd_testcases.TC_02GoogleappsVisibleInDialogBox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifygoogleappsvisible">
+                  </a> <!-- Verifygoogleappsvisible -->
+                  <span class="method-name">Verifygoogleappsvisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Google_Data_Driven_Using_TestNG_-class-passed -->
+          <div class="suite-_Google_Data_Driven_Using_TestNG_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dd_testcases.TC_01GoogleWebpageLaunchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleLaunchVerify(Google)">
+                  </a> <!-- googleLaunchVerify(Google) -->
+                  <span class="method-name">googleLaunchVerify</span>
+                  <span class="parameters">(Google)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Google_Data_Driven_Using_TestNG_-class-passed -->
+        </div> <!-- panel _Google_Data_Driven_Using_TestNG_ -->
+        <div panel-name="test-xml-_Google_Data_Driven_Using_TestNG_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\MY Testing Project\DataDrivenUsingTestNG\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot; Google Data Driven Using TestNG &quot;&gt;
+  &lt;test name=&quot;TC_01_Google_Webpage_Launch_Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_01GoogleWebpageLaunchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_01_Google_Webpage_Launch_Test --&gt;
+  &lt;test name=&quot;TC_02 Google Apps Visible in DialogBox&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_02GoogleappsVisibleInDialogBox&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_02 Google Apps Visible in DialogBox --&gt;
+  &lt;test name=&quot;TC_03 All Google Apps Launch Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_03AllGoogleappsLaunchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_03 All Google Apps Launch Test --&gt;
+  &lt;test name=&quot;TC_04 Verify User is able to Sign_in All Apps&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_04Verify_User_is_able_to_Sign_In_Allapps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_04 Verify User is able to Sign_in All Apps --&gt;
+  &lt;test name=&quot;TC_05 Verify User is able to Change Google Language&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_05Verify_User_is_able_to_Change_Google_Language&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_05 Verify User is able to Change Google Language --&gt;
+  &lt;test name=&quot;TC_06 Verify to open and Colse the Browser&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_06Verify_openandColse_the_Browser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_06 Verify to open and Colse the Browser --&gt;
+  &lt;test name=&quot;TC_07 Verify Google Search Functionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_07Verify_Google_Search_Functionality&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_07 Verify Google Search Functionality --&gt;
+  &lt;test name=&quot;TC_08 Verify Google apps and products on webpage&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_08Verify_Google_apps_and_products_on_webpage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_08 Verify Google apps and products on webpage --&gt;
+  &lt;test name=&quot;TC_09 Verify User able login to Gmail&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_09Verify_User_able_login_to_Gmail&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_09 Verify User able login to Gmail --&gt;
+&lt;/suite&gt; &lt;!--  Google Data Driven Using TestNG  --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-_Google_Data_Driven_Using_TestNG_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for  Google Data Driven Using TestNG </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TC_01_Google_Webpage_Launch_Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_02 Google Apps Visible in DialogBox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_03 All Google Apps Launch Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_04 Verify User is able to Sign_in All Apps (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_05 Verify User is able to Change Google Language (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_06 Verify to open and Colse the Browser (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_07 Verify Google Search Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_08 Verify Google apps and products on webpage (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_09 Verify User able login to Gmail (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-_Google_Data_Driven_Using_TestNG_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for  Google Data Driven Using TestNG </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-_Google_Data_Driven_Using_TestNG_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for  Google Data Driven Using TestNG </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData__Google_Data_Driven_Using_TestNG_');
+function tableData__Google_Data_Driven_Using_TestNG_() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Verifygoogleappsvisible')
+data.setCell(0, 2, 'dd_testcases.TC_02GoogleappsVisibleInDialogBox')
+data.setCell(0, 3, 1967);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifygoogleappsLaunch')
+data.setCell(1, 2, 'dd_testcases.TC_03AllGoogleappsLaunchTest')
+data.setCell(1, 3, 413);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'googleLaunchVerify')
+data.setCell(2, 2, 'dd_testcases.TC_01GoogleWebpageLaunchTest')
+data.setCell(2, 3, 353);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'dd_testcases.TC_04Verify_User_is_able_to_Sign_In_Allapps')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'googleLanguage')
+data.setCell(4, 2, 'dd_testcases.TC_05Verify_User_is_able_to_Change_Google_Language')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifOpenAndCloseBrowser')
+data.setCell(5, 2, 'dd_testcases.TC_06Verify_openandColse_the_Browser')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchFunctionality')
+data.setCell(6, 2, 'dd_testcases.TC_07Verify_Google_Search_Functionality')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verify_Google_apps_products_on_webpage')
+data.setCell(7, 2, 'dd_testcases.TC_08Verify_Google_apps_and_products_on_webpage')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'login')
+data.setCell(8, 2, 'dd_testcases.TC_09Verify_User_able_login_to_Gmail')
+data.setCell(8, 3, 0);
+window.suiteTableData['_Google_Data_Driven_Using_TestNG_']= { tableData: data, tableDiv: 'times-div-_Google_Data_Driven_Using_TestNG_'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-_Google_Data_Driven_Using_TestNG_">
+              </div> <!-- times-div-_Google_Data_Driven_Using_TestNG_ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-_Google_Data_Driven_Using_TestNG_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for  Google Data Driven Using TestNG </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-_Google_Data_Driven_Using_TestNG_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-_Google_Data_Driven_Using_TestNG_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_09Verify_User_able_login_to_Gmail</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_01GoogleWebpageLaunchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">is_Skip</span>
+                <span class="method-start">20301 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">googleLaunchVerify(Google)</span>
+                <span class="method-start">20342 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_02GoogleappsVisibleInDialogBox</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">is_Skip</span>
+                <span class="method-start">20732 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Verifygoogleappsvisible</span>
+                <span class="method-start">20734 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_03AllGoogleappsLaunchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">is_Skip</span>
+                <span class="method-start">22707 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifygoogleappsLaunch</span>
+                <span class="method-start">22709 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_04Verify_User_is_able_to_Sign_In_Allapps</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">is_Skip</span>
+                <span class="method-start">23139 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_05Verify_User_is_able_to_Change_Google_Language</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">is_Skip</span>
+                <span class="method-start">23155 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_06Verify_openandColse_the_Browser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">is_Skip</span>
+                <span class="method-start">23163 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_07Verify_Google_Search_Functionality</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">is_Skip</span>
+                <span class="method-start">23172 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_08Verify_Google_apps_and_products_on_webpage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">is_Skip</span>
+                <span class="method-start">23180 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_09Verify_User_able_login_to_Gmail</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">is_Skip</span>
+                <span class="method-start">23190 ms</span>
+              </div> <!-- configuration-test before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
